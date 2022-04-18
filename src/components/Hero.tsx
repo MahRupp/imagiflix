@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlay, faPlus } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,12 +16,13 @@ const Hero = ({title = 'Vingadores: Guerra Infinita', score=10}) => {
   };
 
   return(
-    <header className=" relative min-h-screeen ">
+    <header className="box-border relative min-h-screeen -mb-32">
       <img 
       className="object-cover object-center h-full w-full" 
       src={placeholder} 
       alt='Filme em destaque'
       />
+      <div className="absolute inset-0 w-full h-full bg-gradient-to-b from-transparent to-black"></div>
       <article className="absolute bottom-0 mb-64 px-8">
         <p className="text-3xl mb-5">Assista agora:</p>
         <h2 className="text-6xl font-bold">{title}</h2>
