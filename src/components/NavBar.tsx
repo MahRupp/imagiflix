@@ -36,7 +36,7 @@ const NavBar = () => {
       <div className="flex justify-self-end items-center">
         <form className="relative w-64">
           <input 
-          className="w-full bg-black border border-white rounded py-1 px-3 transition-all duration-300 ease-in-out opacity-0 hover:opacity-100 focus:opacity-100" 
+          className="w-full bg-black border border-white rounded py-1 px-3 transition-all duration-500 ease-in-out opacity-0 hover:opacity-100 focus:opacity-100" 
           type='text' 
           placeholder="Titulos, gente, gêneros"
           />
