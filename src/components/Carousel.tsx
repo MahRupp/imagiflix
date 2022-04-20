@@ -43,7 +43,7 @@ const Carousel = ({ title= 'Filmes em destaque', data = mockData}: CarouselData)
   return (
     <section className='carousel'>
       <h2 className='relative z-10 text-xl ml-8'>{title}</h2>
-      <Slick  className='realtive mb-8'{...options} >
+      <Slick  className='relative mb-8'{...options} >
         {data.map((movie, index) => Poster(movie, index))}
       </Slick>
     </section>
