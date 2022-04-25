@@ -4,9 +4,11 @@ import cover3 from '../assets/filme3.jpg';
 import cover4 from '../assets/filme4.jpg';
 
 export interface Movie {
-  title: string;
-  cover: string;
-  score?: number | string;
+  title?: string;
+  name?: string;
+  cover?: string;
+  poster_path?: string;
+  vote_average?: number | string;
 }
 
 

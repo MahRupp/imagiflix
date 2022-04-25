@@ -24,7 +24,7 @@ const Hero = ({backdrop_path = null, title = 'Vingadores: Guerra Infinita', vote
         <h2 className="text-6xl font-bold">{title}</h2>
         <p className="text-base mt-6">
           Nota {' '} 
-          <Score  value={vote_average} />
+          <Score value={vote_average} />
         </p>
         <button className="text-base py-2 px-8 mr-2 mt-8 rounded bg-black bg-opacity-50  transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-75 hover:text-black">
           <FontAwesomeIcon className= 'mr-2' icon={faPlay} /> Assistir
